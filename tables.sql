@@ -1,6 +1,3 @@
-
-
-
 CREATE TABLE documentos_similitud (
     id SERIAL PRIMARY KEY,
     moodle_submission_id BIGINT UNIQUE,
