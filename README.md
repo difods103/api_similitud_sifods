@@ -38,6 +38,11 @@ pip install -r requirements.txt
 ```
 
 3. Variables de entorno opcionales (si no se usan valores hardcodeados en `main.py`):
+# Configuración Moodle
+MOODLE_URL = ""
+MOODLE_APIKEY = ""
+MOODLE_USERNAME = ""
+MOODLE_PASSWORD = ""
 
 - `DB_HOST` (default `localhost`)
 - `DB_PORT` (default `5432`)
