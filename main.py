@@ -21,9 +21,9 @@ app = FastAPI(title="API de Similitud Moodle", version="2.1.0")
 
 # Configuración Moodle
 MOODLE_URL = "https://campusvirtual-sifods.minedu.gob.pe"
-MOODLE_APIKEY = "365d5e601bd29d6e983e643c513dfb0d"
-MOODLE_USERNAME = "70321563"
-MOODLE_PASSWORD = "70321563"
+MOODLE_APIKEY = ""
+MOODLE_USERNAME = ""
+MOODLE_PASSWORD = ""
 
 # Configuración Base de Datos (ajustar según entorno)
 DB_HOST = os.getenv("DB_HOST", "localhost")
