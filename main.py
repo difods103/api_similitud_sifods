@@ -20,7 +20,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 app = FastAPI(title="API de Similitud Moodle", version="2.1.0")
 
 # Configuración Moodle
-MOODLE_URL = "https://campusvirtual-sifods.minedu.gob.pe"
+MOODLE_URL = ""
 MOODLE_APIKEY = ""
 MOODLE_USERNAME = ""
 MOODLE_PASSWORD = ""
