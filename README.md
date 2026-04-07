@@ -39,7 +39,8 @@ pip install -r requirements.txt
 
 
 # Configuración Moodle
-``` MOODLE_URL = ""
+```
+MOODLE_URL = ""
 MOODLE_APIKEY = ""
 MOODLE_USERNAME = ""
 MOODLE_PASSWORD = ""
